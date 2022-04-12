@@ -27,6 +27,12 @@
                 <div class="home">
                     <a href="../index.html"><button><i class="fas fa-home"></i></button></a>
                 </div>
+                <div class="abrirMenu">
+                    <button id="abrirMenu" onclick="mostrar()" ><i class="fas fa-bars"></i></button>
+                </div>
+                <div class="cerrarMenu">
+                    <button id="cerrarMenu" onclick="ocultar()"><i class="fas fa-window-close"></i></button>
+                </div>
                 <div class="text-box" id="dyn-tex">
                     <div class="blog_card">
                         <input type="radio" name="select" id="slide_1" checked>
@@ -45,7 +51,7 @@
                         </div>
                         <div class="inner_part">
                             <label for="slideImg" class="img">
-                                <img class="img_1" src="../assets/comunicacion.png" alt="img">
+                                <img class="img_1" src="../assets/control.png" alt="img">
                             </label>
                             <div class="content content_1">
                                 <div class="title">Sistemas de comunicación</div>
@@ -54,7 +60,7 @@
                         </div>
                         <div class="inner_part">
                             <label for="slideImg" class="img">
-                                <img class="img_2" src="../assets/comunicacionDigital.png" alt="img">
+                                <img class="img_2" src="../assets/potencia.png" alt="img">
                             </label>
                             <div class="content content_2">
                                 <div class="title">Comunicaciones Digitales</div>
@@ -63,7 +69,7 @@
                         </div>
                         <div class="inner_part">
                             <label for="slideImg" class="img">
-                                <img class="img_3" src="../assets/senales.png" alt="img">
+                                <img class="img_3" src="../assets/control.png" alt="img">
                             </label>
                             <div class="content content_3">
                                 <div class="title">Procesamiento de señales</div>
@@ -72,7 +78,7 @@
                         </div>
                         <div class="inner_part">
                             <label for="slideImg" class="img">
-                                <img class="img_4" src="../assets/filtros.png" alt="img">
+                                <img class="img_4" src="../assets/potencia.png" alt="img">
                             </label>
                             <div class="content content_4">
                                 <div class="title">Filtros</div>
@@ -81,7 +87,7 @@
                         </div>
                         <div class="inner_part">
                             <label for="slideImg" class="img">
-                                <img class="img_5" src="../assets/DSP.png" alt="img">
+                                <img class="img_5" src="../assets/control.png" alt="img">
                             </label>
                             <div class="content content_5">
                                 <div class="title">Manejo de tarjetas DSP</div>
@@ -90,38 +96,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="dropdown1">
-                    <button class="dropbtn">Lic. en Electrónica</button>
-                    <div class="dropdown-content">
-                        <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="el-t1"></a>
-                        <a href="./comunicaciones.html"><input type="button" value="Sistemas de comunicaciones" id="el-t1"></a>
+                <div class="menu" id="menu">
+                    <div class="dropdown1">
+                        <button class="dropbtn">Lic. en Electrónica</button>
+                        <div class="dropdown-content">
+                            <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="el-t1"></a>
+                            <a href="./comunicaciones.html"><input type="button" value="Sistemas de comunicaciones" id="el-t2"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="dropdown2">
-                    <button class="dropbtn">Lic. en Ing. Mecatrónica</button>
-                    <div class="dropdown-content">
-                        <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="mec-t1"></a>
-                        <a href="./compartido.html"><input type="button" value="Manufactura Asistida por Computadora" id="el-t1"></a>
+                    <div class="dropdown2">
+                        <button class="dropbtn">Lic. en Ing. Mecatrónica</button>
+                        <div class="dropdown-content">
+                            <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="mec-t1"></a>
+                            <a href="./manufactura.html"><input type="button" value="Manufactura Asistida por Computadora" id="mec-t2"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="dropdown3">
-                    <button class="dropbtn">Lic. en Ing. en Sistemas Automotrices</button>
-                    <div class="dropdown-content">
-                        <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="au-t1"></a>
-                        <a href="./automotriz.html"><input type="button" value="Sist. eléctricos, mecánicos y protocolos de comunicación" id="au-t2"></a>
+                    <div class="dropdown3">
+                        <button class="dropbtn">Lic. en Ing. en Sistemas Automotrices</button>
+                        <div class="dropdown-content">
+                            <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="au-t1"></a>
+                            <a href="./automotriz.html"><input type="button" value="Sist. eléctricos, mecánicos y protocolos de comunicación" id="au-t2"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="dropdown4">
-                    <button class="dropbtn">Lic. en Ing. en  Energías Renovables</button>
-                    <div class="dropdown-content">
-                        <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="ren-t1"></a>
-                        <a href="./energia.html"><input type="button" value="Energía Fotovoltaica, biomasa y eólica" id="ren-t1"></a>
+                    <div class="dropdown4">
+                        <button class="dropbtn">Lic. en Ing. en  Energías Renovables</button>
+                        <div class="dropdown-content">
+                            <a href="./compartido.html"><input type="button" value="Instrumentación y Automatizacion de Sist." id="ren-t1"></a>
+                            <a href="./energia.html"><input type="button" value="Energía Fotovoltaica, biomasa y eólica" id="ren-t2"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="dropdown5">
-                    <button class="dropbtn">Lic. en Gestión de Ciudades inteligentes y Transiciones Tec.</button>
-                    <div class="dropdown-content">
-                        <a href="./Iot.html"><input type="button" value="Tec. de la información y IoT" id="cd-t1"></a>
+                    <div class="dropdown5">
+                        <button class="dropbtn">Lic. en Gestión de Ciudades inteligentes y Transiciones Tec.</button>
+                        <div class="dropdown-content">
+                            <a href="./Iot.html"><input type="button" value="Tec. de la información y IoT" id="cd-t1"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="registro">
@@ -132,7 +140,7 @@
                 <div class="cuarto-circulo"></div>
                 <div class="logo_facu"><img src="../assets/FCE_log.png"></div>
             </div>
-            <div class="footer">
+            <div class="foter">
                 <div class="pie">
                     <div class="l3"></div>
                     <div class="l4"></div>
@@ -144,4 +152,7 @@
             </div>
         </div>
     </body>
+    <footer>
+        <script src="../menu.js"></script>
+    </footer>
 </html> 
