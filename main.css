@@ -668,9 +668,10 @@ display: none;
 .titulo_img{
   width: fit-content;
   margin-left: 18%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .sel{
+  visibility: visible;
   width: fit-content;
   height: fit-content;
   margin-top: -18%;
