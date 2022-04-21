@@ -112,7 +112,7 @@ cursor: pointer;
 .r1{
   width: fit-content;
   margin-top: 4vh;
-  margin-left: 35%;
+  margin-left: 32%;
 }
 .r1 button{
   border: none;
@@ -145,7 +145,7 @@ margin-left: 45%;
   max-height: 150px;
   width: 80px;
   margin-top: 2vh;
-  margin-left: 35%;
+  margin-left: 37%;
 }
 .pie{
 position: absolute;
