@@ -592,7 +592,7 @@ display: none;
 }
 .cuarto-circulo {
   position: absolute;
-  margin-top: 48vh;
+  margin-top: 24vh;
   margin-left: 87.2%;
   width: 25vh; 
   height: 25vh; 
@@ -651,7 +651,7 @@ display: none;
   position: inherit;
   height: fit-content;
   width: fit-content;
-  margin-top: 41vh;
+  margin-top: 22vh;
   margin-left: 93%;
 }
 .logoFCE{
