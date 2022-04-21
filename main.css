@@ -217,27 +217,28 @@ border-radius: 5px;
 cursor: pointer;
 }  
 .dropdown1 {/*Electronica*/
+margin-top: 0em;
 position: absolute;
 display: inline-block;
 }
 .dropdown2 {/*Mecatronica*/
 position: absolute;
-margin-top: 5em;
+margin-top: 4em;
 display: inline-block;
 }
 .dropdown3 {/*Automotriz*/
 position: absolute;
-margin-top: 10em;
+margin-top: 8em;
 display: inline-block;
 }
 .dropdown4 {/*Renovables*/
 position: absolute;
-margin-top: 15em;
+margin-top: 12em;
 display: inline-block;
 }
 .dropdown5 {/*Ciudades*/
 position: absolute;
-margin-top: 20em;
+margin-top: 16em;
 display: inline-block;
 }
 
