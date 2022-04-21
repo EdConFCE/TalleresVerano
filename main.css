@@ -128,7 +128,7 @@ background-color: hsla(0, 0%, 100%, 0.2);
 box-shadow:0 4px 12px hsla(0, 0%, 100%, 0.3),0 4px 12px hsla(0, 0%, 100%, 0.3);
 border-radius: 10px;
 /*border: red 1px solid;*/
-width: 45vh;
+width: 50vh;
 height: 60vh;
 }
 .text-box p{
@@ -143,8 +143,9 @@ margin-left: 40%;
 }
 .text-box img{
   max-height: 150px;
-  margin-top: 6vh;
-  margin-left: 35%;
+  width: 80px;
+  margin-top: 4vh;
+  margin-left: 3vh;
 }
 .pie{
 position: absolute;
