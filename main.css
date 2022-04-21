@@ -111,7 +111,7 @@ cursor: pointer;
 }
 .r1{
   width: fit-content;
-  margin-top: 8vh;
+  margin-top: 6vh;
   margin-left: 35%;
 }
 .r1 button{
@@ -128,12 +128,12 @@ background-color: hsla(0, 0%, 100%, 0.2);
 box-shadow:0 4px 12px hsla(0, 0%, 100%, 0.3),0 4px 12px hsla(0, 0%, 100%, 0.3);
 border-radius: 10px;
 /*border: red 1px solid;*/
-width: 50vh;
+width: 45vh;
 height: 60vh;
 }
 .text-box p{
 text-align: justify;
-margin-left: 0.5em;
+margin-left: 0.4em;
 font-size: 25px;
 }
 .titulo_img{
@@ -143,7 +143,7 @@ margin-left: 40%;
 }
 .text-box img{
   max-height: 150px;
-  margin-top: 1.5%;
+  margin-top: 6vh;
   margin-left: 35%;
 }
 .pie{
