@@ -123,7 +123,7 @@ cursor: pointer;
 .text-box{
 position: absolute;
 color: #FFFFFF;
-margin-left: 9vh;
+margin-left: 4vh;
 background-color: hsla(0, 0%, 100%, 0.2);
 box-shadow:0 4px 12px hsla(0, 0%, 100%, 0.3),0 4px 12px hsla(0, 0%, 100%, 0.3);
 border-radius: 10px;
@@ -142,8 +142,9 @@ width: fit-content;
 margin-left: 40%;
 }
 .text-box img{
-margin-top: 1.5%;
-margin-left: 25%;
+  max-height: 150px;
+  margin-top: 1.5%;
+  margin-left: 25%;
 }
 .pie{
 position: absolute;
